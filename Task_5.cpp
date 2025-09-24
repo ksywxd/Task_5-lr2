@@ -2,17 +2,12 @@
 
 int main()
 {
-    int X, Y, max;
+    int X, Y;
     std::cin >> X >> Y;
-    if (X > Y) {
-        max = X; 
-        std::cout << "MAX VERSTAPPEN: " << max;
-    }
+    if (X > Y) std::cout << "MAX VERSTAPPEN: " << X;
     else {
-        if (Y > X) {
-            max = Y;
-            std::cout << "MAX VERSTAPPEN: " << max;
-        }
+        if (Y > X) std::cout << "MAX VERSTAPPEN: " << Y;
+ 
         else std::cout << "RAVNI";
     }
     return 0;
